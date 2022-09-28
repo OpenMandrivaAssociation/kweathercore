@@ -21,6 +21,7 @@ BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Network)
 BuildRequires: cmake(Qt5Positioning)
 BuildRequires: cmake(KF5I18n)
+BuildRequires: cmake(KF5Holidays)
 
 %description
 KDE library for handling weather data
