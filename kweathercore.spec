@@ -1,5 +1,5 @@
 %define major 0
-%define libname %mklibname KF5WeatherCore %{major}
+%define libname %mklibname KF5WeatherCore
 %define devname %mklibname KF5WeatherCore -d
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
