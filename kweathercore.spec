@@ -4,8 +4,8 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name: kweathercore
-Version:	0.6
-Release:	2
+Version:	0.7
+Release:	1
 #Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 #Source0:	https://invent.kde.org/libraries/kweathercore/-/archive/master/kweathercore-master.tar.bz2
 Source0:	https://invent.kde.org/libraries/kweathercore/-/archive/v%{version}/kweathercore-v%{version}.tar.bz2
