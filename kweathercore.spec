@@ -1,10 +1,10 @@
-%define major 25
+%define major %(echo %{version}|cut -d. -f1)
 %define libname %mklibname KF5WeatherCore
 %define devname %mklibname KF5WeatherCore -d
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name: kweathercore
-Version:	25.12.3
+Version:	26.04.0
 Release:	1
 #Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 #Source0:	https://invent.kde.org/libraries/kweathercore/-/archive/master/kweathercore-master.tar.bz2
